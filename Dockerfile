@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM docker.io/php:8.2-apache
 
 # persistent dependencies
 RUN set -eux; \
